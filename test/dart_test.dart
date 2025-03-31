@@ -51,8 +51,8 @@ int sumOfDigits(int number) {
   return sum;
 }
 
-void main() {
-  int num = 1997;
-  int result = sumOfDigits(num);
-  print('A soma dos dígitos de $num é $result.');
-}
+//void main() {
+//  int num = 1997;
+//  int result = sumOfDigits(num);
+//  print('A soma dos dígitos de $num é $result.');
+//}
