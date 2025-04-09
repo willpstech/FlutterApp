@@ -1,4 +1,3 @@
-import 'package:flutter_test/flutter_test.dart';
 
 // Verifica se um número é primo
 bool isPrime(int number) {
