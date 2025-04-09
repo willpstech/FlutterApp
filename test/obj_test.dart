@@ -105,8 +105,8 @@ void main() {
     Aluno aluno1 = Aluno('Willian', 2025);
     aluno1.id = 1;
     historico1.matricular(aluno1);
-    expect(historico1.media(aluno1), 10.0, );
-    expect(historico1.isAprovado(aluno1));
+    expect(historico1.media(aluno1), 3.0);
+    expect(historico1.isAprovado(aluno1, historico1.media(aluno1)), isFalse);
     // Cadastrar segundo aluno com erros
     Aluno aluno2 = Aluno('Paula', 2022);
     try {
